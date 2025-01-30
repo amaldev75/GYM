@@ -14,7 +14,7 @@ export default function Contact() {
     setLoading(true);
     try {
       const { data } = await axios.post(
-        "https://gym-backend-kczm.onrender.com/send/mail",
+        "https://gym-backend-kczm.onrender.com",
         {
           name,
           email,
